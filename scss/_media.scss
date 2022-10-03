@@ -1,0 +1,55 @@
+@media (max-width: 1399px) {
+    .header .header {
+        &__nav {
+            padding-top: 140px; 
+            background-position: center right;
+        }
+
+        &-link {
+            margin-right: 0;
+            font-size: 30px;
+        }
+    }
+
+    header nav ul li a {
+        margin-top: 20px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .header .header {
+        &__phone {
+            display: none;
+        } 
+
+        &__nav { 
+            background-position: center;
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .header .header {
+        &__button {
+            display: none;
+        }
+    }
+
+    .burger {
+        &__menu {
+            margin-left: auto !important;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .header .header {
+        &__logo {
+            min-width: 100% !important;
+        }
+
+        &__lang {
+            display: none !important;
+        }
+    }
+}

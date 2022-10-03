@@ -1,0 +1,30 @@
+// Settings
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "media";
+
+// Components
+@import "header";
+@import "footer";
+
+// Pages
+@import "index";
+
+html,
+body {
+    font-family: "NeueMachina", sans-serif !important;
+    background-color: #000032 !important;
+    font-weight: 400 !important;
+    height: 100%;
+}
+
+.container {
+    max-width: 1404px !important;
+    margin: 0 auto !important;
+}
+
+.header__wrapper {
+    max-width: 1516px !important;
+    margin: 0 auto !important;
+}
