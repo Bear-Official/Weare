@@ -1,8 +1,27 @@
 .header {
     padding-top: 35px;
+    padding-bottom: 69px;
 
     &__lang {
         margin-left: 41px;
+        z-index: 1;
+    }
+
+    &__consultation { 
+        display: none;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size: 14px;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        color: white;
+    }
+
+    &__tel { 
+        display: none;
+        font-size: 14px; 
+        text-decoration: none;
+        color: #ffffff;
     }
 
     &__nav {
@@ -19,6 +38,7 @@
     &__link-ru {
         color: white;
         padding-right: 21px;
+        z-index: 20;
     }
 
     &__button {
@@ -80,15 +100,24 @@ header {
                     color: rgba(255, 255, 255, 0.4);
                     transition: all 0.4s;
                     font-size: 42px;
-                    margin-right: 150px; 
+                    margin-right: 150px;
 
-                    &:hover { 
+                    &:hover {
                         color: white;
                     }
                 }
             }
         }
     }
+}
+
+.close {
+    display: none;
+    position: relative;
+    top: 20px;
+    font-size: 14px;
+    color: white;
+    transform: rotate(90deg);
 }
 
 .toggle-btn {
@@ -140,16 +169,6 @@ sup {
             li {
                 transform: translateY(0px);
                 opacity: 1;
-
-                @for $i from 1 through 4 {
-                    $t: $i * 0.1;
-                    &:nth-child(#{$i}) {
-                        transition: all
-                            0.3s
-                            cubic-bezier(0.6, 0, 0.8, 1.5)
-                            #{$t}s;
-                    }
-                }
             }
         }
     }
@@ -169,6 +188,24 @@ sup {
                 width: 36px;
                 margin-left: 2px;
             }
+        }
+
+        .close {
+            display: block !important;
+            animation: dropdown 1s ease-in-out;
+
+            @keyframes dropdown {
+                0% {
+                    transform: translateY(-10px) rotate(90deg);
+                }
+                100% {
+                    transform: translateY(0px) rotate(90deg);
+                }
+            }
+        }
+
+        .header__logo {
+            display: none;
         }
     }
 }

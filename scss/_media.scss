@@ -1,43 +1,116 @@
 @media (max-width: 1399px) {
     .header .header {
         &__nav {
-            padding-top: 140px; 
+            padding-top: 140px;
             background-position: center right;
         }
 
         &-link {
             margin-right: 0;
-            font-size: 30px;
+            font-size: 28px;
+        }
+
+        &__tel,
+        &__consultation {
+            display: none;
         }
     }
 
     header nav ul li a {
         margin-top: 20px !important;
     }
+
+    #toggle:checked ~ nav {
+        background-size: auto !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .close {
+        display: none !important;
+        top: 35px !important;
+    }
+    .header .header {
+        &__lang {
+            margin-left: 80px;
+            display: none;
+        }
+
+        &__logo {
+            width: 140px;
+            flex: 0 0 160px;
+        }
+
+        &__design-date {
+            display: block;
+            font-size: 17px;
+            color: #ffffff;
+        }
+
+        &__phone {
+            font-size: 17px;
+        }
+    }
+
+    .toggle-btn .bar {
+        left: 5px !important;
+        top: -10px !important;
+    }
+
+    .circle {
+        display: none;
+    }
 }
 
 @media (max-width: 991px) {
     .header .header {
-        &__phone {
-            display: none;
-        } 
-
-        &__nav { 
+        &__nav {
             background-position: center;
+        }
+
+        &__button {
+            width: 229px;
+        }
+
+        &__lang {
+            display: none;
         }
     }
 }
 
-@media (max-width: 870px) {
+@media (max-width: 656px) {
     .header .header {
+        &__phone,
         &__button {
             display: none;
         }
     }
 
+    header nav ul li a {
+        margin-top: 15px !important;
+    }
+
     .burger {
         &__menu {
-            margin-left: auto !important;
+            margin-left: auto;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header .header {
+        &__block {
+            margin-left: 69px;
+        }
+
+        &__design-date {
+            display: none !important;
+        }
+
+        &__tel,
+        &__consultation {
+            text-align: center;
+            display: block;
         }
     }
 }
@@ -47,9 +120,18 @@
         &__logo {
             min-width: 100% !important;
         }
+    }
+}
 
-        &__lang {
-            display: none !important;
+@media (max-width: 425px) {
+    .header .header {
+        &-link {
+            font-size: 21px;
+            color: white;
+        }
+
+        &__logo {
+            z-index: 0;
         }
     }
 }
