@@ -1,13 +1,13 @@
 .header {
     padding-top: 35px;
-    padding-bottom: 69px;
+    padding-bottom: 90px;
 
     &__lang {
         margin-left: 41px;
         z-index: 1;
     }
 
-    &__consultation { 
+    &__consultation {
         display: none;
         text-transform: uppercase;
         text-decoration: underline;
@@ -17,9 +17,9 @@
         color: white;
     }
 
-    &__tel { 
+    &__tel {
         display: none;
-        font-size: 14px; 
+        font-size: 14px;
         text-decoration: none;
         color: #ffffff;
     }
@@ -42,10 +42,12 @@
     }
 
     &__button {
+        cursor: pointer;
         width: 324px;
         height: 58px;
         background-color: #000032 !important;
         color: white;
+        font-size: 15px;
         border: 1px solid white;
         transition: all 0.4s;
 
@@ -53,6 +55,12 @@
             color: #0a58ca;
             border: 1px solid #0a58ca;
         }
+    }
+
+    &--button {
+        background-color: rgba(0, 0, 50, 0) !important;
+        color: rgba(0, 0, 50, 0.3);
+        border: 1px solid #bdbdbd;
     }
 
     &__phone {

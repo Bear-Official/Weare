@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Weare</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.min.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body class="body">
+    <div class="main" style="background-color: #E4E7E9 !important;">
+        <header class="header overflow-hidden">
+            <div class="header__wrapper">
+                <div class="row align-items-center g-0">
+                    <div class="col-6 col-xxl-6 col-xl-5 col-lg-4 col-md-3 col-sm-3 d-flex align-items-center">
+                        <a class="header__logo" href="index.html">
+                            <img src="images/header-logo-2.svg" alt="">
+                        </a>
+                        <div class="header__lang">
+                            <span class="header__link-en text-uppercase" style="color: rgba(0, 0, 50, 0.3);">En</span>
+                            <span class="header__link-ru text-uppercase" style="color: rgba(0, 0, 50, 0.3);">Ру</span>
+                        </div>
+                    </div>
+                    <div
+                        class="col-6 col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-9 d-flex justify-content-around justify-content-lg-between justify-content-md-evenly align-items-center">
+                        <a class="header__phone text-decoration-none" href="tel:+79281234567" style="color: #000032;">+7
+                            928
+                            123 45 67</a>
+                        <button class="header__button header--button rounded-5 text-uppercase">Получить
+                            консультацию</button>
+                        <div class="burger__menu d-inline">
+                            <input type='checkbox' id='toggle' style='display:none;' />
+                            <label class='toggle-btn toggle-btn__cross' for='toggle'>
+                                <img class="circle" src="images/burger-menu.svg" alt="">
+                                <div class="bar" style="background-color: #000032; box-shadow: none;"></div>
+                                <div class="bar" style="background-color: #000032; box-shadow: none"></div>
+                                <span class="close text-uppercase">Закрыть</span>
+                            </label>
+                            <nav class="header__nav">
+                                <ul class="header__list">
+                                    <div class="row justify-content-between offset-md-4 offset-sm-4  offset-lg-0">
+                                        <div class="col-md-12 col-xxl-6 header__block ">
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>01</sup>Главная</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>02</sup>Технологиии</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>03</sup>Услуги</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>04</sup>Кейсы</a>
+                                            </li>
+                                            <li class="header-item"><a href="#" class="header-link"><sup>05</sup>О
+                                                    компании</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-12 col-xxl-6  header__block">
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>06</sup>Сертификаты</a>
+                                            </li>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>07</sup>Команда</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>08</sup>Отзывы</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>09</sup>Блог</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>10</sup>Контакты</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                    <span class="header__consultation">Получить консультацию</span>
+                                    <a class="header__tel" href="tel:+79281234567">+7 928 123 45 67</a>
+                                    <span class="header__design-date">© 2021 vr-design</span>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="consultation overflow-hidden">
+            <div class="wrapper">
+                <a href="index.html">
+                    <img src="images/return-button.svg" alt="">
+                </a>
+                <div class="consultation__wrapper">
+                    <div class="col-lg-7 col-md-12 consultation__info">
+                        <h1 class="consultation__title text-uppercase">Получить <br> консультацию</h1>
+                        <p class="consultation__description">
+                            Мы всегда рады обсудить с вами ваш проект <br> или ответить на вопросы.
+                        </p>
+                        <div class="col-lg-5 d-flex consultation__box">
+                            <div class="consultation__block">
+                                <label class="consultation__name" for="fname"><span class="star">*</span>
+                                    Имя</label>
+                                <input type="text" id="fname" name="fname">
+                            </div>
+                            <div class="consultation__block">
+                                <label class="consultation__name" for="lname"><span class="star">*</span>
+                                    Телефон</label>
+                                <input type="text" id="lname" name="lname">
+                            </div>
+                            <div class="consultation__block">
+                                <label class="consultation__name" for="lname"><span class="star">*</span>
+                                    E-mail</label>
+                                <input type="text" id="lname" name="lname">
+                            </div>
+                            <div class="consultation__block">
+                                <label class="consultation__name" for="lname"><span class="star">*</span>
+                                    Сообщение</label>
+                                <input type="text" id="lname" name="lname">
+                            </div>
+                        </div>
+                        <div class="consultation__block consultation--block">
+                            <label class="consultation__name" for="lname">Описание задачи</label>
+                            <input class="consultation__input" type="text" id="lname" name="lname">
+                        </div>
+                        <div class="consultation__wrap">
+                            <input class="consultation__checkbox" type="checkbox">
+                            <span class="consultation__agree">Я согласен с политикой конфиденциальности</span>
+                            <a class="consultation__button" href="#">Отправить заявку</a>
+                        </div>
+                        <div class="consultation__contacts d-flex justify-content-end">
+                            <img src="images/smartphone.png" alt="">
+                            <a class="consultation__tel" href="tel:+7499113-57-02">+7(499)113-57-02</a>
+                        </div>
+                        <div class="consultation__contact d-flex align-items-end justify-content-end">
+                            <img src="images/mail.png" alt="">
+                            <a class="consultation__mail"
+                                href="mailto:vr-design@group-project.ru">vr-design@group-project.ru</a>
+                        </div>
+                    </div>
+                </div>
+                <span class="consultation__design">© 2021 vr-design</span>
+            </div>
+            </main>
+    </div>
+    </section>
+
+
+
+    <script type=" text/javascript" src="src/jquery-3.6.0.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="src/main.min.js"></script>
+</body>
+
+</html>

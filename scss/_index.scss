@@ -1,0 +1,119 @@
+.consultation {
+    &__title {
+        font-size: 52px;
+        color: #000032;
+        margin-bottom: 20px;
+    }
+
+    &__description {
+        font-size: 17px;
+        color: #000032;
+        margin-right: 30px;
+        margin-bottom: 53px;
+    }
+
+    &__info {
+        margin-top: -20px !important;
+    }
+
+    &__name {
+        display: block;
+        white-space: nowrap;
+        font-size: 14px;
+        color: #000032;
+    }
+
+    &__contacts {
+        margin-bottom: 22px;
+        visibility: hidden;
+    }
+
+    &__contact {
+        visibility: hidden;
+    }
+
+    &__tel {
+        margin-left: 8px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #000032;
+    }
+
+    &__mail {
+        margin-left: 8px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        color: #000032;
+    }
+
+    &__block {
+        margin-right: 52px;
+        margin-bottom: 47px;
+
+        &:last-child {
+            margin-right: 60px;
+        }
+
+        &:nth-of-type(4) {
+            display: none;
+        }
+    }
+
+    &__checkbox {
+        width: 20px;
+        height: 20px;
+        margin-right: 14px;
+    }
+
+    &__agree {
+        font-size: 14px;
+        color: #000032;
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 238px;
+        height: 58px;
+        text-decoration: none;
+        background: linear-gradient(112.73deg, #1e4fc6 1.67%, #5e1ec6 100%);
+        color: #ffffff;
+        border-radius: 67px;
+        margin-top: 30px;
+        margin-bottom: 120px;
+        transition: all 1s;
+
+        &:hover {
+            color: #000032;
+        }
+    }
+
+    &__design {
+        font-size: 17px;
+        color: #000032;
+    }
+
+    &__wrapper {
+        max-width: 1000px !important;
+        margin: 0 auto;
+    }
+
+    &__input {
+        width: 918px !important;
+    }
+}
+
+.star {
+    color: #fc3230;
+}
+
+input[type="text"] {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid rgba(0, 0, 50, 0.4);
+    width: 270px;
+    display: block;
+}
