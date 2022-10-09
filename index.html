@@ -12,80 +12,203 @@
 </head>
 
 <body class="body">
-    <header class="header overflow-hidden">
-        <div class="header__wrapper">
-            <div class="row align-items-center g-0">
-                <div class="col-6 col-xxl-6 col-xl-5 col-lg-4 col-md-3 col-sm-3 d-flex align-items-center">
-                    <a class="header__logo" href="#">
-                        <img src="images/logo.svg" alt="">
-                    </a>
-                    <div class="header__lang">
-                        <span class="header__link-en text-uppercase">En</span>
-                        <span class="header__link-ru text-uppercase">Ру</span>
+    <main class="main">
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="row align-items-center g-0">
+                    <div class="col-6 col-xxl-6 col-xl-5 col-lg-4 col-md-3 col-sm-3 d-flex align-items-center">
+                        <a class="header__logo" href="#">
+                            <img src="images/logo.svg" alt="">
+                        </a>
+                        <div class="header__lang">
+                            <span class="header__link-en text-uppercase">En</span>
+                            <span class="header__link-ru text-uppercase">Ру</span>
+                        </div>
+                    </div>
+                    <div
+                        class="col-6 col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-9 d-flex justify-content-around justify-content-lg-between justify-content-md-evenly align-items-center">
+                        <a class="header__phone text-decoration-none" href="tel:+79281234567">+7 928
+                            123 45 67</a>
+                        <a class="header__button d-flex align-items-center justify-content-center text-decoration-none rounded-5 text-uppercase"
+                            href="consultation.html">Получить
+                            консультацию</a>
+                        <div class="burger__menu d-inline">
+                            <input type='checkbox' id='toggle' style='display:none;' />
+                            <label class='toggle-btn toggle-btn__cross' for='toggle'>
+                                <img class="circle" src="images/burger-menu.svg" alt="">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <span class="close text-uppercase">Закрыть</span>
+                            </label>
+                            <nav class="header__nav">
+                                <ul class="header__list">
+                                    <div class="row justify-content-between offset-md-4 offset-sm-4  offset-lg-0">
+                                        <div class="col-md-12 col-xxl-6 header__block ">
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>01</sup>Главная</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>02</sup>Технологиии</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>03</sup>Услуги</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>04</sup>Кейсы</a>
+                                            </li>
+                                            <li class="header-item"><a href="#" class="header-link"><sup>05</sup>О
+                                                    компании</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-12 col-xxl-6  header__block">
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>06</sup>Сертификаты</a>
+                                            </li>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>07</sup>Команда</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>08</sup>Отзывы</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>09</sup>Блог</a>
+                                            </li>
+                                            <li class="header-item"><a href="#"
+                                                    class="header-link"><sup>10</sup>Контакты</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                    <span class="header__consultation">Получить консультацию</span>
+                                    <a class="header__tel" href="tel:+79281234567">+7 928 123 45 67</a>
+                                    <span class="header__design-date">© 2021 vr-design</span>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
-                <div
-                    class="col-6 col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-9 d-flex justify-content-around justify-content-lg-between justify-content-md-evenly align-items-center">
-                    <a class="header__phone text-decoration-none" href="tel:+79281234567">+7 928
-                        123 45 67</a>
-                    <a class="header__button d-flex align-items-center justify-content-center text-decoration-none rounded-5 text-uppercase"
-                        href="consultation.html">Получить
-                        консультацию</a>
-                    <div class="burger__menu d-inline">
-                        <input type='checkbox' id='toggle' style='display:none;' />
-                        <label class='toggle-btn toggle-btn__cross' for='toggle'>
-                            <img class="circle" src="images/burger-menu.svg" alt="">
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                            <span class="close text-uppercase">Закрыть</span>
-                        </label>
-                        <nav class="header__nav">
-                            <ul class="header__list">
-                                <div class="row justify-content-between offset-md-4 offset-sm-4  offset-lg-0">
-                                    <div class="col-md-12 col-xxl-6 header__block ">
-                                        <li class="header-item"><a href="#" class="header-link"><sup>01</sup>Главная</a>
-                                        </li>
-                                        <li class="header-item"><a href="#"
-                                                class="header-link"><sup>02</sup>Технологиии</a>
-                                        </li>
-                                        <li class="header-item"><a href="#" class="header-link"><sup>03</sup>Услуги</a>
-                                        </li>
-                                        <li class="header-item"><a href="#" class="header-link"><sup>04</sup>Кейсы</a>
-                                        </li>
-                                        <li class="header-item"><a href="#" class="header-link"><sup>05</sup>О
-                                                компании</a>
-                                        </li>
+            </div>
+        </header>
+        <div class="slider slider__bg">
+            <div class="container">
+                <div class="slider__box">
+                    <div class="row align-items-center g-0 slider__wrap">
+                        <div class="col-xl-6 col-lg-12">
+                            <h2 class="slider__title text-uppercase">Разработка <br><span
+                                    class="slider__title-shadow">VR/AR <span
+                                        class="slider__title--shadow">проектов</span>
+                            </h2>
+                            <p class="slider__description text-uppercase">
+                                Моделирование и визуализация 3D-объектов <br> в формате виртуальной реальности
+                            </p>
+                        </div>
+                        <div class="col-xl-6 col-lg-12 d-flex justify-content-center">
+                            <div class="slider__image">
+                                <img class="slider__vr-image" src="images/VR-3.png" alt="">
+                                <img class="slider__vr-item" src="images/vr-element.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="breadcrumb">
+                            <span class="breadcrumb__item">
+                                Участники фестиваля круг света</span>
+                            <span class="breadcrumb__item">
+                                Cертификат iso 9001</span>
+                        </div>
+                    </div>
+                    <section class="virtual">
+                        <h3 class="virtual__title text-uppercase d-block">Отличия виртуальной <br> реальности от
+                            дополненной</h3>
+                        <div class="row g-0 align-items-baseline offset-lg-1">
+                            <div class="col-lg-6 col-md-6 virtual__wrap">
+                                <div class="virtual__body">
+                                    <div class="virtual__image">
+                                        <img src="images/virtual-1.svg" alt="">
                                     </div>
-                                    <div class="col-md-12 col-xxl-6  header__block">
-                                        <li class="header-item"><a href="#"
-                                                class="header-link"><sup>06</sup>Сертификаты</a>
-                                        </li>
-                                        </li>
-                                        <li class="header-item"><a href="#" class="header-link"><sup>07</sup>Команда</a>
-                                        </li>
-                                        <li class="header-item"><a href="#" class="header-link"><sup>08</sup>Отзывы</a>
-                                        </li>
-                                        <li class="header-item"><a href="#" class="header-link"><sup>09</sup>Блог</a>
-                                        </li>
-                                        <li class="header-item"><a href="#"
-                                                class="header-link"><sup>10</sup>Контакты</a>
-                                        </li>
-                                    </div>
+                                    <h4 class="virtual__sub-title">Виртуальная реальность</h4>
+                                    <p class="virtual__description">
+                                        Отличается от дополненной реальности (AR) тем, что видимая действительность
+                                        искусственна. Пользователю предлагают полное
+                                        погружение, задействуя дополнительные органы чувств. Мы внедряем новейшие
+                                        разработки VR — используем не только шлем, а
+                                        ещё перчатки, костюмы и контроллеры движения.
+                                    </p>
                                 </div>
-                                <span class="header__consultation">Получить консультацию</span>
-                                <a class="header__tel" href="tel:+79281234567">+7 928 123 45 67</a>
-                                <span class="header__design-date">© 2021 vr-design</span>
-                            </ul>
-                        </nav>
+                            </div>
+                            <div class="col-lg-6 col-md-6 virtual__wrap">
+                                <div class="virtual__body">
+                                    <div class="virtual__image">
+                                        <img src="images/virtual-2.svg" alt="">
+                                    </div>
+                                    <h4 class="virtual__sub-title">Виртуальная реальность</h4>
+                                    <p class="virtual__description">
+                                        Отличается от дополненной реальности (AR) тем, что видимая действительность
+                                        искусственна. Пользователю предлагают полное
+                                        погружение, задействуя дополнительные органы чувств. Мы внедряем новейшие
+                                        разработки VR — используем не только шлем, а
+                                        ещё перчатки, костюмы и контроллеры движения.
+                                    </p>
+                                </div>
+                            </div>
+                    </section>
+                    <section class="visualization" id="visualization">
+                        <div class="row align-items-end g-0">
+                            <div class="col-lg-6">
+                                <h2 class="visualization__title text-uppercase">Комплексные решения <br> визуализации
+                                </h2>
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="visualization__description">
+                                    WEARE – российский разработчик программного обеспечения и массогабаритного
+                                    оборудования,
+                                    предоставляющий максимально
+                                    полное погружение в виртуальную реальность.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-xl-6">
+                                <div class="visualization__body">
+                                    <div class="visualization__image">
+                                        <img src="images/visualization-1.png" alt="">
+                                    </div>
+                                    <h3 class="visualization__sub-title text-center">Разработка VR решений</h3>
+                                    <a class="visualization__link" href="consultation.html">
+                                        <div class="visualization__info d-flex align-items-center">
+                                            Подробнее
+                                            <img class="arrow" src="images/arrow.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 visualization__block">
+                                <div class="visualization__body">
+                                    <div class="visualization__image">
+                                        <img src="images/visualization-2.png" alt="">
+                                    </div>
+                                    <h3 class="visualization__sub-title text-center">Разработка VR решений</h3>
+                                    <a class="visualization__link" href="development.html">
+                                        <div class="visualization__info d-flex align-items-center">
+                                            Подробнее
+                                            <img class="arrow" src="images/arrow.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="scroll">
+                    <div class="scroll__item">
+                        <div class="scroll__point"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-
+    </main>
 
     <script type="text/javascript" src="src/jquery-3.6.0.min.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
     <script type="text/javascript" src="src/main.min.js"></script>
 </body>
 

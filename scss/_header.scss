@@ -1,6 +1,6 @@
 .header {
     padding-top: 35px;
-    padding-bottom: 90px;
+    // padding-bottom: 90px;
 
     &__lang {
         margin-left: 41px;
@@ -169,7 +169,8 @@ sup {
         background-image: url(../images/burger-bg.png);
         background-size: cover;
         background-position: center center center;
-        background-color: rgba(8, 34, 92, 4.5);
+        background-color: rgba(8, 34, 92, 4.5); 
+        z-index: 1;
 
         ul {
             top: 70px;

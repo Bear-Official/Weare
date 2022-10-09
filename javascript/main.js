@@ -20,4 +20,13 @@ checkbox.onchange = (e) => {
         logo.style.display = "";
         lang.style.display = "";
     }
-};
+}; 
+
+// $(document).ready(function () {
+//     $(".development__wrap").slick({
+//         slidesToShow: 1,
+//         slidesToScroll: 1,
+//         infinite: false,
+//         arrows: false,
+//     });
+// });
