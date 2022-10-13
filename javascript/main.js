@@ -20,7 +20,7 @@ checkbox.onchange = (e) => {
         logo.style.display = "";
         lang.style.display = "";
     }
-}; 
+};
 
 // $(document).ready(function () {
 //     $(".development__wrap").slick({
@@ -30,3 +30,14 @@ checkbox.onchange = (e) => {
 //         arrows: false,
 //     });
 // });
+
+$(document).ready(function () {
+    $(".design__box").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        arrows: true,
+        prevArrow: $(".arrow-perv"),
+        nextArrow: $(".arrow-next"),
+    });
+});

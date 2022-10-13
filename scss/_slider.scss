@@ -4,3 +4,39 @@
     top: 25px;
 }
 
+.arrow-perv {
+    cursor: pointer;
+    margin-right: auto;
+    position: relative;
+    top: -26px;
+    left: 19px;
+    background: none;
+    margin-top: 47px;
+    transform: rotate(180deg);
+    z-index: 999;
+    border: none;
+}
+
+.arrow-next {
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: 40px;
+    background: none;
+    position: relative;
+    top: -78px;
+    border: none;
+    left: -19px;
+    z-index: 999;
+}
+
+.slick-btn {
+    cursor: pointer;
+    width: 244px;
+    height: 58px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 67px;
+    position: absolute;
+    right: 161px;
+    bottom: -100px;
+    z-index: 999;
+}
