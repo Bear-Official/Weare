@@ -45,7 +45,7 @@
         &__image {
             width: 100%;
             display: flex;
-            justify-content: end;
+            justify-content: flex-end;
         }
 
         &__wrap {
@@ -159,6 +159,40 @@
         &__description {
             font-size: 16px;
         }
+    }
+
+    .team .team {
+        &__img {
+            &:nth-child(2) {
+                margin-top: 0;
+            }
+
+            &:nth-child(4) {
+                margin-top: 0;
+            }
+
+            padding: 0 10px;
+        }
+
+        &__button {
+            width: 188px;
+            height: 41px;
+            right: 0;
+        }
+
+        &__container {
+            padding: 24px 41px;
+        }
+    }
+
+    .arrow_next {
+        top: 13px !important;
+        left: 13px !important;
+    }
+
+    .arrow_perv {
+        top: 13px !important;
+        right: 13px !important;
     }
 
     .design .design {
@@ -324,6 +358,22 @@
         }
     }
 
+    .documents .documents {
+        &__view-block {
+            left: 40% !important;
+        }
+    }
+
+    .reviews .reviews {
+        &__companies--img {
+            display: none;
+        }
+
+        &__companies--image {
+            order: 0 !important;
+        }
+    }
+
     .advantages .advantages {
         &__description {
             max-width: 220px;
@@ -417,6 +467,40 @@
         }
     }
 
+    .documents .documents {
+        &__col {
+            display: block;
+        }
+
+        &__view-block {
+            left: 32%;
+        }
+    }
+
+    .reviews .reviews {
+        &__companies-img {
+            &:nth-child(3) {
+                display: none;
+            }
+
+            &:nth-child(4) {
+                order: 1;
+            }
+        }
+
+        &__title {
+            font-size: 32px;
+        }
+
+        &__img {
+            width: 100%;
+            height: 659px;
+            top: 420px;
+            object-fit: contain;
+            left: 0;
+        }
+    }
+
     .tell {
         &__title {
             position: unset !important;
@@ -448,7 +532,7 @@
 
         &__wrap {
             display: flex;
-            align-items: flex-end;
+
             max-width: 690px;
         }
     }
@@ -641,6 +725,32 @@
         }
     }
 
+    .reviews .reviews {
+        &__text {
+            display: none !important;
+        }
+
+        &__col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__companies--image,
+        &__companies-img {
+            width: 144px !important;
+        }
+
+        &__companies-box {
+            align-items: baseline !important;
+        }
+
+        &__wrap,
+        &__description {
+            margin-bottom: 32px;
+        }
+    }
+
     .platform__description {
         font-size: 25px !important;
     }
@@ -770,6 +880,16 @@
     .consultation .consultation {
         &__title {
             font-size: 35px;
+        }
+    }
+
+    .documents .documents {
+        &__view-block {
+            margin-left: auto;
+            margin-right: auto;
+            left: 0 !important;
+            right: 0;
+            text-align: center;
         }
     }
 }

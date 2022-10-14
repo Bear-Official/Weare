@@ -40,3 +40,22 @@
     bottom: -100px;
     z-index: 999;
 }
+
+// Team slider
+
+.arrow_perv {
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    background-color: #000032;
+    border: none;
+}
+
+.arrow_next {
+    position: absolute;
+    top: 20px;
+    left: 28px;
+    transform: rotate(180deg);
+    background-color: #000032;
+    border: none;
+}
