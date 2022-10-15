@@ -40,9 +40,31 @@ $(document).ready(function () {
         prevArrow: $(".arrow-perv"),
         nextArrow: $(".arrow-next"),
     });
-});
 
-$(document).ready(function () {
+    $(".documents__box").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: false,
+        arrows: true,
+        prevArrow: $(".documents-perv"),
+        nextArrow: $(".documents-next"),
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2.2,
+                },
+            },
+            {
+                breakpoint: 690,
+                settings: {
+                    slidesToShow: 1,
+                },
+            },
+        ],
+    });
+
     $(".team__box").slick({
         slidesToShow: 5.5,
         slidesToScroll: 1,
@@ -65,32 +87,6 @@ $(document).ready(function () {
             },
             {
                 breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                },
-            },
-        ],
-    });
-});
-
-$(document).ready(function () {
-    $(".documents__box").slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: false,
-        arrows: true,
-        prevArrow: $(".arrow-perv"),
-        nextArrow: $(".arrow-next"),
-
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 2.2,
-                },
-            },
-            {
-                breakpoint: 690,
                 settings: {
                     slidesToShow: 1,
                 },
