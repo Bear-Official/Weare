@@ -93,4 +93,21 @@ $(document).ready(function () {
             },
         ],
     });
+
+    $(".feedback__box").slick({
+        slidesToShow: 1,
+        slidesToScroll: 0.9,
+        infinite: false,
+        arrows: true,
+        prevArrow: $(".feedback-perv"),
+        nextArrow: $(".feedback-next"),
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToScroll: 1,
+                },
+            },
+        ],
+    });
 });

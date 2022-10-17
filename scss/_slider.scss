@@ -77,3 +77,35 @@
     background-color: #000032;
     border: none;
 }
+
+// Feedback slider
+.feedback {
+    &__button {
+        cursor: pointer;
+        width: 244px;
+        height: 58px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 67px;
+        position: absolute;
+        right: 161px;
+        bottom: -100px;
+        z-index: 999;
+    }
+
+    &-next {
+        position: absolute;
+        top: 20px;
+        right: 28px;
+        background-color: #000032;
+        border: none;
+    }
+
+    &-perv {
+        position: absolute;
+        top: 20px;
+        left: 28px;
+        background-color: #000032;
+        border: none;
+        transform: rotate(180deg);
+    }
+}
