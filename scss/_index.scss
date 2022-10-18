@@ -730,6 +730,9 @@ input[type="text"] {
 }
 
 .tell {
+    padding-top: 20px;
+    padding-bottom: 20px; 
+
     &__name {
         font-size: 14px;
         color: #ffffff;
@@ -778,6 +781,18 @@ input[type="text"] {
     &__mail {
         font-size: 22px;
         font-weight: 700;
+    }
+
+    &__txt {
+        font-size: 17px;
+        color: #ffffff;
+    }
+
+    &__sup-title {
+        font-size: 52px;
+        color: $primary;
+        margin-top: 160px;
+        margin-bottom: 400px;
     }
 
     &__checkbox {
@@ -1066,5 +1081,181 @@ input[type="text"] {
 
     .feedback__hover:hover .feedback__view-block {
         opacity: 1;
+    }
+}
+
+.news {
+    &__title {
+        font-size: 52px;
+        margin: 0 auto;
+        margin-bottom: 20px !important;
+        color: $primary;
+    }
+
+    &__item {
+        margin-right: 48px;
+
+        &-text,
+        &-date {
+            font-size: 12px;
+        }
+    }
+
+    &__item-title {
+        font-size: 20px;
+        margin-top: 21px;
+        margin-bottom: 5px;
+        font-weight: 700;
+        color: $primary;
+    }
+
+    &__item-description {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.6);
+        padding-bottom: 76px;
+        width: 359px;
+        overflow: hidden;
+    }
+
+    &__item-info {
+        color: rgba(255, 255, 255, 0.6);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    }
+
+    &__item-date,
+    &__text {
+        font-size: 14px;
+    }
+}
+
+.tab {
+    overflow: hidden;
+    margin-bottom: 42px;
+
+    &-btn {
+        width: 82px;
+        height: 42px;
+        border-radius: 40px;
+        transition: all 0.4s;
+    }
+}
+
+.tab button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    width: 120px;
+    height: 42px;
+    background: none;
+    color: $primary;
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background: linear-gradient(112.73deg, #1e4fc6 1.67%, #5e1ec6 100%);
+}
+
+.tab button.active {
+    background: linear-gradient(112.73deg, #1e4fc6 1.67%, #5e1ec6 100%);
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+.system {
+    background-color: #e8e8e8;
+    padding-top: 40px;
+    padding-bottom: 83px;
+    background-image: url(../images/system-img.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -2;
+
+    &__block {
+        // width: 1178px;
+    }
+
+    &__box {
+        margin: auto;
+        max-width: max-content;
+    }
+
+    &__title {
+        font-size: 52px;
+        margin-bottom: 18px;
+    }
+
+    &__sub-title {
+        font-size: 22px;
+        color: #000032;
+    }
+
+    &__date {
+        font-size: 14px;
+    }
+
+    &__name-photo {
+        display: block;
+        margin-top: 12px;
+        font-size: 14px;
+        color: rgba(0, 0, 50, 0.8);
+    }
+
+    &__sub-info {
+        display: block;
+        font-size: 22px;
+        margin-bottom: 70px;
+    }
+
+    &__dark-text {
+        color: black;
+        font-size: 18px;
+    }
+
+    &__description {
+        font-size: 17px;
+        color: #000032;
+        max-width: 759px;
+    }
+
+    &__stats-title {
+        color: #000032;
+        padding-bottom: 35px;
+        border-bottom: 2px solid rgba(0, 0, 50, 0.2);
+    }
+
+    &__txt {
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: #000032;
+    }
+
+    &__desc {
+        color: #2b2b53;
+        font-size: 14px;
+        padding-bottom: 76px;
+        max-width: 539px;
+    }
+
+    &__col {
+        margin-top: 43px;
+    }
+
+    &__bottom-content {
+        border-bottom: 1px solid rgba(0, 0, 50, 0.6);
+        padding-bottom: 10px;
+    }
+
+    &__bottom-text {
+        color: rgba(0, 0, 50, 0.6);
+        font-size: 14px;
     }
 }

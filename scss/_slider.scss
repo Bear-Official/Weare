@@ -109,3 +109,18 @@
         transform: rotate(180deg);
     }
 }
+
+// News slider
+.news {
+    &__button {
+        cursor: pointer;
+        width: 244px;
+        height: 58px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 67px;
+        position: absolute;
+        right: 161px;
+        bottom: -100px;
+        z-index: 999;
+    }
+}

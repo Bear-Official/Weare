@@ -110,4 +110,31 @@ $(document).ready(function () {
             },
         ],
     });
+
+    // $(".news__box").slick({
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1,
+    //     infinite: false,
+    //     arrows: true,
+    //     prevArrow: $(".news-perv"),
+    //     nextArrow: $(".news-next"),
+       
+    // });
 });
+
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}

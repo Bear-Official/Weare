@@ -778,12 +778,506 @@
                     </div>
                 </div>
             </section>
-            <div class=" scroll">
-                <div class="scroll__item">
-                    <div class="scroll__point"></div>
+            <section class="news">
+                <div class="container-fluid g-0">
+                    <!-- <div class="news__top-btn">
+                        <button class="slick-arrow news-perv slick-disabled" aria-disabled="true"><img
+                                src="images/Union.png"></button>
+                        <button class="slick-arrow news-next" aria-disabled="false"><img src="images/Union.png"
+                                alt=""></button>
+                    </div> -->
+                    <h2 class="news__title text-uppercase" style="max-width: 1404px !important;">Статьи и новости</h2>
+                    <div class="row g-0" style="max-width: 1404px !important; margin: auto !important;">
+                        <div class="tab d-flex">
+                            <button class="tablinks tab-btn" onclick="openCity(event, 'Все')">Все</button>
+                            <button class="tablinks tab-button" onclick="openCity(event, 'Новости')">Новости</button>
+                            <button class="tablinks  tab-button" onclick="openCity(event, 'Обзоры')">Обзоры</button>
+                            <button class="tablinks  tab-button" onclick="openCity(event, 'Советы')">Советы</button>
+                        </div>
+                        <div id="Все" class="tabcontent">
+                            <div class="news__box d-flex">
+                                <div class="news__item">
+                                    <div class="news__body">
+                                        <div class="news__img">
+                                            <img class="news__image" src="images/news-img-1.png" alt="">
+                                        </div>
+                                        <h4 class="news__item-title">Тренды в строительстве дома</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя — это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Советы</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-2.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">2D- или 3D-анимация</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя — это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Обзоры</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-3.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">Разработка интерактивных систем VR</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя — это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Новости</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-4.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">Виртуальная реальность в обучении</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя — это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Советы</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Новости" class="tabcontent">
+                            <div class="news__box d-flex">
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-1.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">Тренды в строительстве дома</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя —
+                                            это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не
+                                            каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Советы</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-3.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">2D- или 3D-анимация</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя —
+                                            это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не
+                                            каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Обзоры</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-2.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">Разработка интерактивных систем VR</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя —
+                                            это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не
+                                            каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Новости</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Обзоры" class="tabcontent">
+                            <div class="news__box d-flex">
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-1.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">Тренды в строительстве дома</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя —
+                                            это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не
+                                            каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Советы</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-3.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">2D- или 3D-анимация</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя —
+                                            это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не
+                                            каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Обзоры</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-2.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">Разработка интерактивных систем VR</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя —
+                                            это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не
+                                            каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Новости</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Советы" class="tabcontent">
+                            <div class="news__box d-flex">
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-1.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">Тренды в строительстве дома</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя —
+                                            это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не
+                                            каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Советы</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-3.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">2D- или 3D-анимация</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя —
+                                            это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не
+                                            каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Обзоры</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news__item">
+                                    <div class="news__img">
+                                        <img class="news__image" src="images/news-img-2.png" alt="">
+                                    </div>
+                                    <div class="news__body">
+                                        <h4 class="news__item-title">Разработка интерактивных систем VR</h4>
+                                        <p class="news__item-description">
+                                            Самое яркое и запоминающееся средство для привлечения потребителя —
+                                            это
+                                            рекламные ролики. Видеоряд остается в памяти
+                                            человека надолго, если он сделан качественно и со вкусом. Но не
+                                            каждый..
+                                        </p>
+                                        <div class="news__item-info d-flex justify-content-between">
+                                            <span class="news__item-date">28.02.2020</span>
+                                            <span class="news__item-text text-uppercase">Новости</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
+            <section class="tell">
+                <div class="container">
+                    <div class="row d-flex">
+                        <div class="col-xl-6 tell__col">
+                            <h2 class="tell__title">РАсскажите <br>
+                                О вашем проекте</h2>
+                            <img class="tell__img" src="images/tell-img.png" alt="">
+                            <span class="tell__design platform__design">© 2021 vr-design</span>
+                        </div>
+                        <div class="col-xl-6">
+                            <h3 class="tell__right-title">Готовы создать уникальный проект? <br>
+                                Давайте сделаем его вместе!</h3>
+                            <div class="tell__block d-flex flex-wrap">
+                                <div class="tell__input">
+                                    <label class="tell__name" for="fname"><span class="star">*</span>
+                                        Имя</label>
+                                    <input type="text" id="tell__fname" name="tell__fname">
+                                </div>
+                                <div class="tell__input">
+                                    <label class="tell__name" for="fname"><span class="star">*</span>
+                                        E-mail</label>
+                                    <input type="text" id="tell__fname" name="tell__fname">
+                                </div>
+                                <div class="tell__input">
+                                    <label class="tell__name" for="fname"><span class="star">*</span>
+                                        Телефон</label>
+                                    <input type="text" id="tell__fname" name="tell__fname">
+                                </div>
+                                <div class="tell__input">
+                                    <label class="tell__name" for="fname"><span class="star"></span>
+                                        Сообщение</label>
+                                    <input type="text" id="tell__fname" name="tell__fname">
+                                </div>
+                            </div>
+                            <div class="tell__info d-flex align-items-center justify-content-between">
+                                <div class="tell__input-block  align-items-center">
+                                    <input type="checkbox" class="tell__checkbox">
+                                    <p class="tell__description">
+                                        Я согласен с политикой <br> конфиденциальности
+                                    </p>
+                                </div>
+                                <a class="tell__button platform__button consultation__button" href="#">Отправить
+                                    заявку</a>
+                            </div>
+                            <div class="tell__wrap platform__wrap flex-column">
+                                <a class="tell__number platform__number text-decoration-none" href="#">
+                                    <img class="tell__image platform__image" src="images/smartphone-2.png" alt="">
+                                    +7 (499) 113-57-02
+                                </a>
+                                <a class="tell__mail platform__mail text-decoration-none" href="#">
+                                    <img class="tell__image platform__image" src="images/mail-2.png" alt="">
+                                    vr-design@group-project.ru
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" scroll">
+                        <div class="scroll__item">
+                            <div class="scroll__point"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="system">
+                <div class="container">
+                    <!-- <img class="system__img" src="images/system-img.svg" alt=""> -->
+                    <div class="system__block">
+                        <span class="system__date">28.02.2020</span>
+                        <h1 class="system__title">Разработка интерактивных <br> систем VR</h1>
+                        <span class="system__sub-info">Рассказываем о принципах разработки аттракционов VR</span>
+                    </div>
+                    <div class="system__box">
+                        <p class="system__description">
+                            Виртуальная реальность начиналась именно с аттракционов. В далеком 2016 году именно
+                            с американских горок начались первые
+                            аттракционы и клубы виртуальной реальности. За эти годы многое изменилось: очки стали
+                            с качественными экранами (доходит
+                            до качества 4К), провода ушли, а трекинг (отслеживание) движений стал кратно лучше.
+                            <br>
+                            <br>
+                            Основная особенность разработки современны аттракционов для виртуальной реальности — выбор
+                            дополнительных аксессуаров.
+                            Очки теперь доступы всем, поэтому обычным приложением никого не удивить. Что же делать?
+                            В одном
+                            из наших проектов
+                            мы использовали профессиональный горнолыжный тренажер, чтобы совместить тренировку
+                            и виртуальную
+                            реальность.
+                            <br>
+                            <br>
+                            Благодаря чему получилось ну очень нестандартный аттракцион, так как игроку нужно было
+                            полноценно двигаться в VR-очках,
+                            получилась симуляция реальной тренировки для спортсменов. В рамках другого проекта
+                            мы использовали реальную бензопилу
+                            (конечно же с отключенным мотором), к которой прикрепили датчики и сделали ее инструментом
+                            в игре для VR.
+                            Получилось намного интереснее, чем просто использовать джойстик. Поэтому при создании
+                            по-настоящему крутого
+                            VR-аттракциона нужно проявить креативность.
+                        </p>
+                        <h5 class="system__sub-title">Сейчас эта проблема ушла полностью</h5>
+                        <p class="system__description">
+                            Раньше проблема VR-оборудования стояла очень остро при проектировании аттракциона. Сейчас
+                            эта
+                            проблема ушла полностью,
+                            так как есть большое количество очков с полноценным трекингом, которые работают без проводов
+                            и
+                            сторонних датчиков. Но у
+                            этих очков есть и свои ограничения – создать для них фотореалистичную графику не получиться.
+                            <br>
+                            <br>
+                        </p>
+                        <p class="system__description">
+                            Наш список лучших очков для создания VR-аттракционов:
+                            <br>
+                            <br>
+                            1. <span class="system__dark-text"> Pico Neo 2:</span> качество картинки 4К и мощное
+                            “железо” для реализации самых амбициозных
+                            проектов 2. <span class="system__dark-text"> Vive Pro c Wi-Fi</span>
+                            адаптером: удобное, но дорогое решение. Основное преимущество – возможность получить очень
+                            высокую графику. 3. <span class="system__dark-text"> Oculus
+                                Quest 2: </span> самый недорогой вариант, но с отсутствием гарантии в России.
+                            <br>
+                            <br>
+                        </p>
+                        <img src="images/system-img-2.png" alt="">
+                        <span class="system__name-photo">Фотография Ивана петрова</span>
+                    </div>
+                    <div class="row system__col">
+                        <h2 class="system__stats-title text-uppercase">Другие статьи по теме</h2>
+                        <div class="col-lg-4 col-sm-6">
+                            <img class="system__stats-img" src="images/news-img-1.png" alt="">
+                            <span class="system__txt">Тренды в строительстве дома</span>
+                            <p class="system__desc">
+                                Небольшой мастер-класс, как самому сделать грифельную <br> стену дома.
+                            </p>
+                            <div class="system__bottom-content d-flex justify-content-between">
+                                <span class="system__bottom-text">28.02.2020</span>
+                                <span class="system__bottom-text">Советы</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <img class="system__stats-img" src="images/news-img-2.png" alt="">
+                            <span class="system__txt">Тренды в строительстве дома</span>
+                            <p class="system__desc">
+                                Небольшой мастер-класс, как самому сделать грифельную <br> стену дома.
+                            </p>
+                            <div class="system__bottom-content d-flex justify-content-between">
+                                <span class="system__bottom-text">28.02.2020</span>
+                                <span class="system__bottom-text">Советы</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <img class="system__stats-img" src="images/news-img-3.png" alt="">
+                            <span class="system__txt">Тренды в строительстве дома</span>
+                            <p class="system__desc">
+                                Небольшой мастер-класс, как самому сделать грифельную <br> стену дома.
+                            </p>
+                            <div class="system__bottom-content d-flex justify-content-between">
+                                <span class="system__bottom-text">28.02.2020</span>
+                                <span class="system__bottom-text">Советы</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="tell">
+                    <div class="container">
+                        <div class="row d-flex">
+                            <div class="col-xl-6 tell__col">
+                                <h2 class="tell__sup-title">РАсскажите <br>
+                                    О вашем проекте</h2>
+                                <span class="tell__txt">© 2021 vr-design</span>
+                            </div>
+                            <div class="col-xl-6">
+                                <h3 class="tell__right-title">Готовы создать уникальный проект? <br>
+                                    Давайте сделаем его вместе!</h3>
+                                <div class="tell__block d-flex flex-wrap">
+                                    <div class="tell__input">
+                                        <label class="tell__name" for="fname"><span class="star">*</span>
+                                            Имя</label>
+                                        <input type="text" id="tell__fname" name="tell__fname">
+                                    </div>
+                                    <div class="tell__input">
+                                        <label class="tell__name" for="fname"><span class="star">*</span>
+                                            E-mail</label>
+                                        <input type="text" id="tell__fname" name="tell__fname">
+                                    </div>
+                                    <div class="tell__input">
+                                        <label class="tell__name" for="fname"><span class="star">*</span>
+                                            Телефон</label>
+                                        <input type="text" id="tell__fname" name="tell__fname">
+                                    </div>
+                                    <div class="tell__input">
+                                        <label class="tell__name" for="fname"><span class="star"></span>
+                                            Сообщение</label>
+                                        <input type="text" id="tell__fname" name="tell__fname">
+                                    </div>
+                                </div>
+                                <div class="tell__info d-flex align-items-center justify-content-between">
+                                    <div class="tell__input-block  align-items-center">
+                                        <input type="checkbox" class="tell__checkbox">
+                                        <p class="tell__description">
+                                            Я согласен с политикой <br> конфиденциальности
+                                        </p>
+                                    </div>
+                                    <a class="tell__button platform__button consultation__button" href="#">Отправить
+                                        заявку</a>
+                                </div>
+                                <div class="tell__wrap platform__wrap flex-column">
+                                    <a class="tell__number platform__number text-decoration-none" href="#">
+                                        <img class="tell__image platform__image" src="images/smartphone-2.png" alt="">
+                                        +7 (499) 113-57-02
+                                    </a>
+                                    <a class="tell__mail platform__mail text-decoration-none" href="#">
+                                        <img class="tell__image platform__image" src="images/mail-2.png" alt="">
+                                        vr-design@group-project.ru
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
         </section>
+
 
     </main>
 
