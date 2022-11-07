@@ -111,14 +111,11 @@ $(document).ready(function () {
         ],
     });
 
-    // $(".news__box").slick({
-    //     slidesToShow: 4,
+    // $(".second__slider").slick({
+    //     slidesToShow: 1,
     //     slidesToScroll: 1,
     //     infinite: false,
-    //     arrows: true,
-    //     prevArrow: $(".news-perv"),
-    //     nextArrow: $(".news-next"),
-       
+    //     arrows: false,
     // });
 });
 

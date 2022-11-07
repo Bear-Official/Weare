@@ -1,3 +1,17 @@
+@media (max-width: 1760px) {
+    .button {
+        &__top {
+            left: 0 !important;
+        }
+    }
+
+    .tell .tell {
+        &__txt {
+            margin-left: 80px;
+        }
+    }
+}
+
 @media (max-width: 1399px) {
     .sphere .sphere {
         &__box {
@@ -109,6 +123,12 @@
 
         &__wrap {
             flex-wrap: wrap-reverse;
+        }
+    }
+
+    .tell .tell {
+        &__bottom-info {
+            top: 700px;
         }
     }
 
@@ -504,6 +524,10 @@
             font-size: 18px !important;
             margin-bottom: 20px !important;
         }
+
+        &__bottom-info {
+            top: 820px !important;
+        }
     }
 }
 
@@ -840,6 +864,10 @@
         &__desc {
             padding-bottom: 40px;
         }
+
+        &__title {
+            font-size: 25px;
+        }
     }
 
     .reviews .reviews {
@@ -1020,6 +1048,12 @@
 
         &__logo {
             z-index: 0;
+        }
+    }
+
+    .tell .tell {
+        &__bottom-info {
+            top: 900px !important;
         }
     }
 
